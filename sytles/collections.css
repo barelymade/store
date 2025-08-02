@@ -1,0 +1,68 @@
+.collections-sec{
+    width: 100%;
+    min-height: 60vh;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+.collections-inner{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 100%;
+    min-height: 66vh;
+    padding-top: 3rem;
+}
+.collection{
+    display: flex;
+    flex-direction: column;
+    width: 19rem;
+    height: 50vh;
+    flex-shrink: 0;
+    margin: 15px;
+    background-color: white;
+    color:  blue;
+}
+.collection-anchor{
+    width: 100%;
+    height: 100%;
+}
+.collection-anchor{
+    text-decoration: none;
+    color: yellow;
+    font-size: 23px;
+    cursor: pointer;
+}
+.collection-link{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-content: end;
+    font-weight: bold;
+    background-image: url(../images/barely\ Made\ t\ shirts.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    
+}
+.link-2{
+    background-image: url(../images/barely\ Made\ cap.jpg);
+    background-size: 99% 100%;
+}
+.link-3{
+    background-image: url(../images/barely\ Made\ bottoms.jpg);
+}
+.collection-buttons{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    left: calc(45%);
+    bottom: 10px;
+    width: 8rem;
+}
+.arrow-img{
+    width: 1rem;
+    cursor: pointer;
+}
+.arrow-left{
+    transform: rotate(180deg);
+}

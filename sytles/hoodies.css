@@ -1,0 +1,151 @@
+.hoodies-sec{
+    width: 100%;
+    min-height: 120vh;
+    background-color: black;
+    color: white;
+}
+.hoodies-inner{
+    width: 95%;
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.hoodies-header{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(240, 166, 178, 0.3);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.video-display{
+    width: 90%;
+    min-height: 18rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: 1rem;
+    margin: 0 auto;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+    gap: 13px;
+    padding-top: 2rem;
+}
+.first-disp{
+    background-color: antiquewhite;
+    height: 90%;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    overflow: hidden;
+    border: none;
+}
+.second-disp{
+    height: 90%;
+    background-color: aliceblue;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    overflow: hidden;
+    border: none;
+}
+.third-disp{
+    height: 90%;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: none;
+}
+
+.first-disp-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.second-hoodies-sec{
+    width: 90%;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.third-hoodies-sec{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    grid-gap: 1rem;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+
+
+.product-img-con{
+    width: 100%;
+    height: 14rem;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.product-img{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+.image-back{
+    display: none;
+}
+
+
+.product-info{
+    width: 90%;
+
+}
+.p-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    min-height: 3rem ;
+    font-size: 14px;
+}
+.product-description{
+    display: none;
+}
+.p-price{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+.add-to-cart{
+    width: 100%;
+    border: solid 2px white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 432px) {
+    .third-hoodies-sec{
+         grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    }
+    .product-img-con{
+        height: 11rem;
+    }
+}

@@ -1,0 +1,37 @@
+.second-vid-sec{
+    width: 100%;
+    min-height: 80vh;
+    background-color: white;
+}
+.second-sec-inner{
+    min-height: 80vh;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.context{
+    width: 80%;
+    background-color: antiquewhite;
+}
+
+
+.video{
+    display: flex;
+    position: relative;
+    height: 30vh;
+    width: 100%;
+}
+.video iframe{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+}

@@ -1,0 +1,129 @@
+.footer{
+    width: 100%;
+    min-height: 45vh;
+    background-color: aqua;
+    background: url(../svg.icons/dragon-scales.svg);
+    padding-bottom: 15px;
+}
+.footer-inner{
+    width: 95%;
+    min-height: 45vh;
+    margin: 0 auto;
+}
+
+.security-con{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.security{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.security-icon-con{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+}
+.security-icon{
+    width: 100%;
+    height: 100%;
+}
+
+.security-desc p{
+    margin: 3px;
+}
+
+.footer-top{
+    width: 100%;
+    min-height: 35vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.footer-logo{
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+.quick-links-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.quick-links-con a{
+    text-decoration: none;
+    color: black;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.support{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+
+}
+.support-icon{
+    width: 1rem;
+    margin-right: 10px;
+}
+
+
+.socials-con{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+.social-svg{
+    width: 100%;
+    height: 100%;
+}
+
+.ape-sites-tag{
+    width: 100%;
+    background-color: aqua;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+.ape-sites-tag span{
+    font-weight: bold;
+    margin-left: 8px;
+}
+.apesites-logo{
+    width: 23px;
+    margin-left: 10px;
+}
